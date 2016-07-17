@@ -1,0 +1,27 @@
+Thanks for downloading the MineRoper script!
+The instructions displayed when the game starts will get you running in no time,
+but the script allows for customization, which is explained here.
+If you want to fork it on GitHub, you can do so at:
+https://github.com/cerosrhino/hedgewars-scripts
+
+To customize gameplay while hosting a game, you need to copy the Shoppa scheme
+first and enter the in-game scheme editor.
+
+Currently, you can adjust the count of bullets a player has initially,
+ranging from 1 to 6, 5 being the default value.
+In the scheme editor, the mine count field is what determines this.
+
+You can also set the fuse time (how long a mine/bullet takes to explode),
+by applying a combination of custom settings for the mine timeout and the mine
+dud percentage (the mine timeout determines the base value, which is then
+multiplied by the percentage; a percentage of 0% behaves as if it were set
+to 100%, thus having the unmodified base value take effect).
+
+You might also be interested in changing the turn time (which is a generic
+setting that has no influence on how the script behaves). 30 seconds is
+the default time for Shoppa scheme, but I found 15 seconds to be interesting.
+
+NOTE: In order of any of your custom settings to work, the mine count
+must be set to a non-zero value!
+
+Enjoy!
