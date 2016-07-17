@@ -160,13 +160,6 @@ function onSwitch()
     end
 end
 
-function onPrecise()
-    for i = 1, #bullets do
-        DeleteGear(bullets[i])
-        bullets[i] = AddGear(0, 0, gtBall, 0, 0, 0, 0)
-    end
-end
-
 function onHogAttack()
     if (GetCurAmmoType() == amSkip) then
         for i = 1, #bullets do
